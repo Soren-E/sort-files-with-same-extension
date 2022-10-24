@@ -13,6 +13,9 @@ mediaLocation='C:/Users/Aleti Sunil/Downloads/media'
 setupFilesLocation='C:/Users/Aleti Sunil/Downloads/setupFiles'
 compressedFilesLocation='C:/Users/Aleti Sunil/Downloads/compressedFiles'
 FilesLocation='C:/Users/Aleti Sunil/Downloads/Files'
+
+
+
 for file in filename:
     if os.path.splitext(file)[1] in documents:
         if(path.exists(DocumentsLocation)):
